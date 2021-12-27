@@ -44,8 +44,8 @@ int main() {
 	Stack s1(3);
 	int opt = 0;
 	do {
-		printf("1. push\n2. pop\n3. display\n4. exit\n:: ");
-		scanf("%d", &opt);
+		cout << "1. push\n2. pop\n3. display\n4. exit\n:: ";
+		cin >> opt;
 		switch(opt) {
 			case 1:
 				cout << "enter a value: ";
